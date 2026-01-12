@@ -20,9 +20,9 @@ int game(int maxnum) {
         count++;
 
         if (rnum > num) {
-            std::cout << "Lukusi on suurempi\n";
-        } else if (rnum < num) {
             std::cout << "Lukusi on pienempi\n";
+        } else if (rnum < num) {
+            std::cout << "Lukusi on suurempi\n";
         } else {
             std::cout << "Lukusi on yhtäsuuri\n";
             break;
@@ -44,4 +44,5 @@ int main() {
 
     return 0;
 }
+
 
