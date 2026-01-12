@@ -10,7 +10,7 @@ int game(int maxnum) {
     while (true) {
         std::cout << "Anna luku: ";
 
-        // fixi johonkin ihan random ongelmaan
+        // fixi johonki ihan random ongelmaan
         if (!(std::cin >> num)) {
             std::cin.clear();
             std::cin.ignore(1000, '\n');
@@ -44,3 +44,4 @@ int main() {
 
     return 0;
 }
+
